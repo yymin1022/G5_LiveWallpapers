@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="sp_Nightscape_Desc_NORMAL">Los pisos del edificio se iluminan mientras se carga la batería.</string>
+<string name="sp_Nightscape_Title_NORMAL">Escenario nocturno</string>
+</resources>

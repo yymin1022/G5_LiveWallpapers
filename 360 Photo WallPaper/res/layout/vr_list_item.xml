@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<ImageView android:gravity="center_vertical" android:id="@id/vr_preview_image" android:layout_width="@dimen/vr_list_item_image_size" android:layout_height="@dimen/vr_list_item_image_size" android:layout_marginStart="@dimen/vr_list_item_margin_left" />
+	<TextView android:textSize="@dimen/vr_list_item_text_size" android:textColor="@color/vr_list_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/vr_title" android:layout_width="fill_parent" android:layout_height="@dimen/vr_list_item_image_size" android:singleLine="true" android:layout_marginStart="@dimen/vr_list_item_space_between_img_text" android:layout_marginEnd="@dimen/vr_list_item_margin_rigth" />
+</LinearLayout>

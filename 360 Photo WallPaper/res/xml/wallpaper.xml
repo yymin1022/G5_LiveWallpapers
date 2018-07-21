@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android" android:description="@string/sp_360_wallpaper_des_normal" android:settingsActivity="com.lge.gallery.vr.wallpaper.VrWallpaperSettings" android:thumbnail="@mipmap/ic_launcher_wallpaper" />

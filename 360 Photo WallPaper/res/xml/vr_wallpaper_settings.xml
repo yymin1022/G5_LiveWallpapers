@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.lge.gallery.vr.wallpaper.VrPreviewPreference android:key="preview_custom_prefs" />
+	<SwitchPreference android:title="@string/sp_360_degree_perspective_title_normal_2nd" android:key="360_degree_swtich" android:summary="@string/sp_360_degree_perspective_des_normal" />
+	<SwitchPreference android:title="@string/sp_360_degree_gesture_title_normal" android:key="360_gesture_swtich" android:summary="@string/sp_360_degree_gesture_des_normal" />
+</PreferenceScreen>

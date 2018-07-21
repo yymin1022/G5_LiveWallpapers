@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="sp_Nightscape_Desc_NORMAL">Пол здания освещается, когда заряжается батарея.</string>
+<string name="sp_Nightscape_Title_NORMAL">Ночной режим</string>
+</resources>

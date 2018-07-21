@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.lgapps" android:versionCode="10000060" android:versionName="1.0.6" package="com.lge.gallery.vr.wallpaper" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="23" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-feature android:name="android.software.live_wallpaper" android:required="true" />
+	<uses-feature android:glEsVersion="0x20000" android:required="true" />
+	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher_wallpaper" android:label="@string/sp_360_wallpaper_title_normal" android:largeHeap="true" android:supportsRtl="true" android:theme="@style/Theme.LiveWallpaper">
+		<service android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/sp_360_wallpaper_title_normal" android:name="com.lge.gallery.vr.wallpaper.VrWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+			<intent-filter>
+				<action android:name="android.service.wallpaper.WallpaperService" />
+			</intent-filter>
+			<meta-data android:name="android.service.wallpaper" android:resource="@xml/wallpaper" />
+		</service>
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/edit" android:logo="@android:color/transparent" android:name="com.lge.gallery.vr.wallpaper.VrWallpaperSettings" />
+		<activity android:exported="true" android:name="com.lge.gallery.vr.wallpaper.VrWallpaperSetter" />
+		<activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="SphericalViewer" android:name="com.lge.gallery.vr.app.SphericalViewer" android:theme="@style/SphericalViewerTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<integer name="light_building_w">1440</integer>
+<integer name="light_building_h">2560</integer>
+<integer name="light_building_x">0</integer>
+<integer name="light_building_y">0</integer>
+</resources>

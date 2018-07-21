@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50000300" android:versionName="5.0.3" package="com.lge.lockscreen.livewallpaper.cat" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+	<application android:debuggable="false" android:icon="@mipmap/icon" android:label="@string/cat">
+		<service android:label="@string/cat" android:name="com.lge.lockscreen.livewallpaper.cat.CatLiveWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+			<intent-filter>
+				<action android:name="android.service.wallpaper.WallpaperService" />
+				<action android:name="com.lge.lockscreen.WallpaperService" />
+			</intent-filter>
+			<meta-data android:name="android.service.wallpaper" android:resource="@xml/cat" />
+		</service>
+	</application>
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="23" />
+	<uses-feature android:name="android.software.live_wallpaper" />
+</manifest>

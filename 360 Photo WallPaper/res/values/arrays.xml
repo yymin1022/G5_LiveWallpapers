@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="default_image_list_array_values"><item>@string/default_image_list_name_1</item><item>@string/default_image_list_name_2</item></string-array>
+</resources>

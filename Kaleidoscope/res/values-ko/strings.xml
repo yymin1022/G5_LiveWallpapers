@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="sp_Nightscape_Desc_NORMAL">충전이 되어갈수록 건물에 불이 들어오면서 야경이 밝아집니다.</string>
+<string name="sp_Nightscape_Title_NORMAL">야경</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="focal_length">Focal Length</string>
+<string name="sp_internal_mem_full_NORMAL">Not enough space internal storage. To free up space, delete unused files.</string>
+<string name="sp_no_sd_card_closed_NORMAL">SD card unmounted or not present. Gallery is closed.</string>
+<string name="sp_sdcard_removed_NORMAL">The SD card has been removed. Insert a SD card.</string>
+</resources>
